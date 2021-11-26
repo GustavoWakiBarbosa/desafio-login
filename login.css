@@ -1,63 +1,62 @@
-main{
+main {
     position: absolute;
-    left:600px;
-    top: 250px;
-    
-    
-    
+    left: 40%;
+    top: 40%;
+
+
+
 
 }
 
-img{
+img {
     position: relative;
-    top: 10px;
-    right: 20px;
-     width: 15%;
-     display: inline-block;
-     
+    right: 1%;
+    width: 15%;
+    top: 30%;
+
 }
 
-input{
-    border-radius: 5px;
-    border-width: 2px
+input {
+    border-radius: 5%;
+    border-width: 2%;
 }
 
-#telinha{
+#telinha {
     display: inline-block;
     background-color: #d0f6f6;
     border-style: solid;
     border-width: 5px;
     border-color: #16adad;
     border-radius: 10px;
-    width: 220px;
+    width: 25%;
     height: 180px;
-   
+
 }
 
-#login{
+#login {
     display: block;
     margin-left: 50%;
-    margin-top: 10px;
+    margin-top: 5%;
 }
 
-.campos{
+.campos {
     display: block;
     margin-left: 15%;
 }
 
-#ajuste{
+.ajuste {
     margin-left: 15%;
 }
 
-#manterlogado{
+#manterlogado {
     margin-left: 0%;
 }
 
-#checkbox{
+#checkbox {
     margin-left: 15%;
 }
 
-.textos{
-    margin-top: 25px;
-    margin-right: 40px;
+.textos {
+    margin-top: 12%;
+    margin-right: 20%;
 }
