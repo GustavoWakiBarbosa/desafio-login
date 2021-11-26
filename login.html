@@ -17,25 +17,29 @@
             <div id="telinha"> 
 
     <form>
-            <label for="email">Email:</label>
-            <input type="email" id="email" required  >
+            <div class="textos">
+            <label for="email" id="ajuste">Email:</label>
+            <input type="email" class="campos" id="email" required  >
 
-            <label for="senha">Senha:</label >
-            <input type="password" id="senha" required >      
+            <label for="senha" id="ajuste" >Senha:</label >
+            <input type="password" class="campos" id="senha" required >      
              
-            <input type="checkbox" id="manterlogado">
-            <label for="manterlogado">Continuar logado?</label>
+            <input type="checkbox" id="checkbox" >
+            <label for="manterlogado" id="manterlogado">Continuar logado?</label>
 
             <input type="submit" value="Login" id="login" onclick="verificarLogin()">
-            
+            </div>
             
                 
 
-            </div>
+            
     </form>
+            </div>
     
-    <script src="login.js" ></script>
 
     </main>
+    <script src="login.js" ></script>
 </body>
 </html>
+
+

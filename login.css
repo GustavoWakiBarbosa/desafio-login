@@ -1,44 +1,63 @@
-img{
-    display: inline-block;
-    width: 15%;
-  
+main{
+    position: absolute;
+    left:600px;
+    top: 250px;
+    
+    
+    
+
 }
 
-label{
-    display: block;
-    text-align: left;
-    margin-left:15px;
+img{
+    position: relative;
+    top: 10px;
+    right: 20px;
+     width: 15%;
+     display: inline-block;
+     
 }
 
 input{
     border-radius: 5px;
-    
-}
-
-main{
-    text-align: center;
-    
+    border-width: 2px
 }
 
 #telinha{
-    position: flex;
-    background-color: #d0f6f6;
     display: inline-block;
+    background-color: #d0f6f6;
     border-style: solid;
     border-width: 5px;
     border-color: #16adad;
     border-radius: 10px;
-    width: 200px;
-    height: 200px;
-    
+    width: 220px;
+    height: 180px;
+   
 }
 
-#manterlogado{
-    display: inline-block;
-    text-align: center;
+#login{
+    display: block;
+    margin-left: 50%;
+    margin-top: 10px;
 }
 
 .campos{
     display: block;
+    margin-left: 15%;
 }
 
+#ajuste{
+    margin-left: 15%;
+}
+
+#manterlogado{
+    margin-left: 0%;
+}
+
+#checkbox{
+    margin-left: 15%;
+}
+
+.textos{
+    margin-top: 25px;
+    margin-right: 40px;
+}
